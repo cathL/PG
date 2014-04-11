@@ -1,0 +1,7 @@
+parameters:
+#    pg_gsb_frais.example.class: Pg\GsbFraisBundle\Example
+
+services:
+#    pg_gsb_frais.example:
+#        class: %pg_gsb_frais.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
