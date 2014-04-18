@@ -12,9 +12,8 @@ use \PdoGsb;
 class HomeController extends Controller {
 
     public function indexAction() {
-      // ici je rajoute un changement
-      $varInutile = "Complètement inutile";
         // ATTENTION CHANGEMENTS A VERIFIER
+        //encore un changement
         $session = $this->get('session');
         if (estconnecte($session)) {
             return $this->render('PgGsbFraisBundle::accueil.html.twig');
